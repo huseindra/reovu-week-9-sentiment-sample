@@ -11,8 +11,9 @@ Repositori ini digunakan untuk mengeksplorasi dan membangun model/pipeline anali
 ```
 .
 ├── data/           # Dataset mentah dan hasil praproses
+│   └── output/     # Hasil labeling (dibuat otomatis oleh skrip)
 ├── notebooks/      # Jupyter notebook untuk eksplorasi dan eksperimen
-├── src/            # Kode sumber (preprocessing, model, utils)
+├── scripts/        # Skrip pemrosesan data (labeling, dsb.)
 └── README.md
 ```
 
@@ -25,6 +26,35 @@ Repositori ini digunakan untuk mengeksplorasi dan membangun model/pipeline anali
    ```
 2. Buat virtual environment dan install dependencies (akan ditambahkan seiring perkembangan proyek)
 3. Jalankan notebook atau skrip sesuai kebutuhan
+
+## Labeling Feedback
+
+`scripts/label_feedback.py` membaca `data/feedback.csv` dan melabeli setiap baris dengan:
+
+- **sentiment** — `positive`, `negative`, atau `neutral`, berdasarkan kata kunci polaritas dalam pesan.
+- **topic** — kategori isi pesan, misalnya `billing-payments`, `authentication`, `data-loss`,
+  `reliability-outage`, `security-privacy`, `bug-stability`, `performance`, `support-response`,
+  `data-request`, `feature-request`, `usability`, `onboarding`, `notifications`, `documentation`,
+  `pricing-plans`, `reporting-data-accuracy`, `content-typo`, atau `general`.
+- **severity** — `critical`, `high`, `medium`, atau `low`. Topik yang berdampak langsung ke akses,
+  data, atau keamanan (`authentication`, `data-loss`, `reliability-outage`, `security-privacy`)
+  otomatis `critical`; masalah finansial/kepatuhan (`billing-payments`, `reporting-data-accuracy`,
+  `data-request`) menjadi `high`; sisanya dinilai dari kata kunci dan sentimen.
+
+Jalankan:
+
+```bash
+python3 scripts/label_feedback.py
+```
+
+Skrip menghasilkan tiga file di `data/output/`:
+
+- `labeled_feedback.csv` — semua baris beserta label lengkap.
+- `high_critical_feedback.csv` — baris dengan severity `high` atau `critical`.
+- `routine_feedback.csv` — sisanya (`medium`/`low`).
+
+Aturan klasifikasi bersifat rule-based (keyword matching), bukan model ML, sehingga mudah
+dibaca dan disesuaikan langsung di `scripts/label_feedback.py`.
 
 ## Status
 
