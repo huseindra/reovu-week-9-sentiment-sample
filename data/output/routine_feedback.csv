@@ -1,0 +1,17 @@
+id,date,name,email,channel,message,sentiment,topic,severity
+7,2026-06-21,Rizky Ananda,rizky.ananda@example.com,email,I opened a support ticket four days ago about billing and nobody has replied. Very disappointed with the response time for a paying customer.,negative,support-response,medium
+8,2026-06-21,Putri Maharani,putri.m@example.com,chat,"There is a bug where the date filter resets when I switch tabs. I found a workaround by refreshing, but it would be nice to have it fixed.",negative,bug-stability,low
+9,2026-06-21,Fajar Nugroho,fajar.nugroho@example.com,in-app,The new settings page is confusing. I could not find where to change my notification preferences and gave up after ten minutes.,negative,usability,medium
+10,2026-06-20,Indah Permata,indah.permata@example.com,email,The reports section takes about thirty seconds to load every time. It is usable but slow enough to be frustrating during a busy day.,negative,performance,medium
+11,2026-06-20,Hendra Saputra,hendra.saputra@example.com,email,Would love to see an integration with Google Sheets so I can export my data automatically. Right now I copy and paste everything by hand.,neutral,feature-request,low
+12,2026-06-20,Nadia Kusuma,nadia.kusuma@example.com,chat,"Exporting to PDF cuts off the last column of wide tables. Not urgent, but it makes the reports look unfinished when I share them.",negative,bug-stability,low
+13,2026-06-20,Tomy Halim,tomy.halim@example.com,in-app,"Small thing: there is a typo on the billing page, it says recieve instead of receive.",negative,content-typo,low
+14,2026-06-19,Vina Oktaviani,vina.okta@example.com,app-store,Great app overall. Only wish there was a dark mode for late night work. My eyes would thank you.,positive,feature-request,low
+15,2026-06-19,Galih Pranoto,galih.pranoto@example.com,email,"Quick question, does the Pro plan include the team workspace feature, or is that only on the Business plan? The pricing page is a little unclear.",neutral,pricing-plans,low
+16,2026-06-19,Sherly Wibowo,sherly.wibowo@example.com,twitter,Just want to say the new onboarding flow is fantastic. Got my whole team set up in under ten minutes. Keep up the great work.,positive,onboarding,low
+17,2026-06-19,Reza Firmansyah,reza.firmansyah@example.com,email,Honestly love the product and use it every day. One suggestion would be keyboard shortcuts for the most common actions.,positive,feature-request,low
+20,2026-06-18,Lia Susanti,lia.susanti@example.com,email,"I am getting way too many email notifications, sometimes five for the same comment thread. Is there a way to batch them?",negative,notifications,medium
+21,2026-06-17,Yoga Mahendra,yoga.mahendra@example.com,chat,The API docs for the webhook section are a bit thin. A working example payload would help a lot.,negative,documentation,medium
+23,2026-06-17,Eko Prasetyo,eko.prasetyo@example.com,in-app,I just started the trial and I am a bit lost on how to invite my teammates. A short walkthrough would have helped.,negative,onboarding,medium
+24,2026-06-16,Ratna Dewi,ratna.dewi@example.com,chat,"Thank you to your support agent Rina, she solved my import issue in five minutes and was very kind about it.",positive,support-response,low
+26,2026-06-16,Wulan Safitri,wulan.safitri@example.com,app-store,Love the recent speed improvements. The app feels much snappier. A widget for the home screen would be the cherry on top.,positive,feature-request,low
