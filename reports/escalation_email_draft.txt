@@ -1,0 +1,65 @@
+To: <Support Lead Name> <support-lead@example.com>
+Subject: Escalation: 5 critical / 5 high customer feedback items
+
+Hi,
+
+10 items from today's feedback review (2026-09-21) need attention. Suggested customer replies are included below for review before sending.
+
+--- CRITICAL (5) ---
+
+[#2] Siti Rahmawati <siti.rahmawati@example.com> via in-app on 2026-06-22
+Topic: authentication | Sentiment: negative
+Message: I cannot log in at all since this morning. It keeps saying invalid session and I have a client presentation in two hours. I need this fixed now.
+Suggested reply: Hi Siti Rahmawati, we're sorry you're locked out and understand the urgency. Our engineering team is investigating your account access right now and we'll update you as soon as it's restored.
+
+[#3] Bayu Pratama <bayu.pratama@example.com> via chat on 2026-06-22
+Topic: data-loss | Sentiment: negative
+Message: All of my saved projects from last week have disappeared. Three days of work are just gone. Is there any way to recover them? I am panicking.
+Suggested reply: Hi Bayu Pratama, we understand how alarming it is to lose your work. We're actively investigating whether your projects can be recovered and will follow up with a status as soon as we have one.
+
+[#4] Clara Tanuwijaya <clara.t@example.com> via email on 2026-06-22
+Topic: reliability-outage | Sentiment: negative
+Message: This is the third outage this month. If it happens again I am cancelling our team plan and moving to a competitor. We cannot run our business on this.
+Suggested reply: Hi Clara Tanuwijaya, we're sorry for the repeated outages and understand the impact on your business. We're treating this as a top priority and will share a reliability update shortly.
+
+[#5] Daniel Hutapea <daniel.hutapea@example.com> via email on 2026-06-22
+Topic: security-privacy | Sentiment: negative
+Message: When I opened my dashboard I could see another customer's invoices and email address. This is a serious privacy problem and you need to look into it today.
+Suggested reply: Hi Daniel Hutapea, thank you for reporting this right away. This is a serious issue and our security team has already been notified and is investigating. We'll follow up with findings and next steps.
+
+[#18] Dewi Anggraini <dewi.anggraini@example.com> via app-store on 2026-06-18
+Topic: authentication | Sentiment: negative
+Message: The mobile app keeps logging me out every few hours on Android. On desktop it is fine, so it seems specific to mobile.
+Suggested reply: Hi Dewi Anggraini, we're sorry you're locked out and understand the urgency. Our engineering team is investigating your account access right now and we'll update you as soon as it's restored.
+
+--- HIGH (5) ---
+
+[#1] Andre Wijaya <andre.wijaya@example.com> via email on 2026-06-22
+Topic: billing-payments | Sentiment: negative
+Message: I was charged twice for my June subscription and the second charge put my card over its limit. Please refund the duplicate immediately, this is unacceptable.
+Suggested reply: Hi Andre Wijaya, we're sorry for the billing trouble. We're reviewing your account now and will follow up with a correction as soon as possible.
+
+[#6] Mega Lestari <mega.lestari@example.com> via in-app on 2026-06-21
+Topic: bug-stability | Sentiment: negative
+Message: The editor crashes every time I paste a large table. It has happened more than ten times today and I keep losing my changes. This is blocking my work.
+Suggested reply: Hi Mega Lestari, sorry for the disruption this is causing. Our engineering team is investigating and we'll update you as soon as a fix is available.
+
+[#19] Arif Setiawan <arif.setiawan@example.com> via in-app on 2026-06-18
+Topic: billing-payments | Sentiment: negative
+Message: My payment keeps failing when I try to upgrade to the annual plan, so I am stuck on monthly. I want to pay you, please help me give you money.
+Suggested reply: Hi Arif Setiawan, we're sorry for the billing trouble. We're reviewing your account now and will follow up with a correction as soon as possible.
+
+[#22] Maya Sari <maya.sari@example.com> via email on 2026-06-17
+Topic: data-request | Sentiment: neutral
+Message: Under the new regulations I would like to request that you delete all of my personal data from your systems. Please confirm once this is done.
+Suggested reply: Hi Maya Sari, thank you for your request. We're processing it in line with applicable regulations and will confirm once it's complete.
+
+[#25] Bagus Santoso <bagus.santoso@example.com> via email on 2026-06-16
+Topic: reporting-data-accuracy | Sentiment: negative
+Message: The numbers in my monthly revenue report do not match what I see in the live dashboard. I need to trust these figures before I send them to my board.
+Suggested reply: Hi Bagus Santoso, thank you for flagging the discrepancy. We understand you need to trust these figures, and we're investigating the mismatch now.
+
+Please review the suggested replies above before they go out.
+
+Thanks,
+Feedback triage

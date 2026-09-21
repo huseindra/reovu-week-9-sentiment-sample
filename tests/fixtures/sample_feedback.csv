@@ -1,0 +1,4 @@
+id,date,name,email,channel,message
+1,2026-06-22,Test User One,test1@example.com,in-app,"I cannot log in at all since this morning. It keeps saying invalid session and I need this fixed now."
+2,2026-06-22,Test User Two,test2@example.com,email,"I was charged twice for my June subscription. Please refund the duplicate immediately, this is unacceptable."
+3,2026-06-19,Test User Three,test3@example.com,app-store,"Great app overall. Only wish there was a dark mode for late night work."
