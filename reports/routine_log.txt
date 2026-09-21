@@ -1,0 +1,34 @@
+Routine feedback log (2026-09-21) - 16 items
+
+[#7] 2026-06-21 | Rizky Ananda | email | sentiment=negative topic=support-response severity=medium
+    I opened a support ticket four days ago about billing and nobody has replied. Very disappointed with the response time for a paying customer.
+[#8] 2026-06-21 | Putri Maharani | chat | sentiment=negative topic=bug-stability severity=low
+    There is a bug where the date filter resets when I switch tabs. I found a workaround by refreshing, but it would be nice to have it fixed.
+[#9] 2026-06-21 | Fajar Nugroho | in-app | sentiment=negative topic=usability severity=medium
+    The new settings page is confusing. I could not find where to change my notification preferences and gave up after ten minutes.
+[#10] 2026-06-20 | Indah Permata | email | sentiment=negative topic=performance severity=medium
+    The reports section takes about thirty seconds to load every time. It is usable but slow enough to be frustrating during a busy day.
+[#11] 2026-06-20 | Hendra Saputra | email | sentiment=neutral topic=feature-request severity=low
+    Would love to see an integration with Google Sheets so I can export my data automatically. Right now I copy and paste everything by hand.
+[#12] 2026-06-20 | Nadia Kusuma | chat | sentiment=negative topic=bug-stability severity=low
+    Exporting to PDF cuts off the last column of wide tables. Not urgent, but it makes the reports look unfinished when I share them.
+[#13] 2026-06-20 | Tomy Halim | in-app | sentiment=negative topic=content-typo severity=low
+    Small thing: there is a typo on the billing page, it says recieve instead of receive.
+[#14] 2026-06-19 | Vina Oktaviani | app-store | sentiment=positive topic=feature-request severity=low
+    Great app overall. Only wish there was a dark mode for late night work. My eyes would thank you.
+[#15] 2026-06-19 | Galih Pranoto | email | sentiment=neutral topic=pricing-plans severity=low
+    Quick question, does the Pro plan include the team workspace feature, or is that only on the Business plan? The pricing page is a little unclear.
+[#16] 2026-06-19 | Sherly Wibowo | twitter | sentiment=positive topic=onboarding severity=low
+    Just want to say the new onboarding flow is fantastic. Got my whole team set up in under ten minutes. Keep up the great work.
+[#17] 2026-06-19 | Reza Firmansyah | email | sentiment=positive topic=feature-request severity=low
+    Honestly love the product and use it every day. One suggestion would be keyboard shortcuts for the most common actions.
+[#20] 2026-06-18 | Lia Susanti | email | sentiment=negative topic=notifications severity=medium
+    I am getting way too many email notifications, sometimes five for the same comment thread. Is there a way to batch them?
+[#21] 2026-06-17 | Yoga Mahendra | chat | sentiment=negative topic=documentation severity=medium
+    The API docs for the webhook section are a bit thin. A working example payload would help a lot.
+[#23] 2026-06-17 | Eko Prasetyo | in-app | sentiment=negative topic=onboarding severity=medium
+    I just started the trial and I am a bit lost on how to invite my teammates. A short walkthrough would have helped.
+[#24] 2026-06-16 | Ratna Dewi | chat | sentiment=positive topic=support-response severity=low
+    Thank you to your support agent Rina, she solved my import issue in five minutes and was very kind about it.
+[#26] 2026-06-16 | Wulan Safitri | app-store | sentiment=positive topic=feature-request severity=low
+    Love the recent speed improvements. The app feels much snappier. A widget for the home screen would be the cherry on top.

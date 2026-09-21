@@ -56,6 +56,36 @@ Skrip menghasilkan tiga file di `data/output/`:
 Aturan klasifikasi bersifat rule-based (keyword matching), bukan model ML, sehingga mudah
 dibaca dan disesuaikan langsung di `scripts/label_feedback.py`.
 
+## Escalation Reports
+
+`scripts/generate_reports.py` membaca `data/output/labeled_feedback.csv` (hasil dari
+`label_feedback.py`) dan menghasilkan dua file di `reports/`:
+
+- `escalation_email_draft.txt` — draf satu email ke support lead yang merangkum semua
+  baris `high`/`critical`, masing-masing dengan draf balasan yang disarankan untuk pelanggan.
+- `routine_log.txt` — log teks untuk baris `medium`/`low` yang tidak perlu balasan segera.
+
+Jalankan setelah `label_feedback.py`:
+
+```bash
+python3 scripts/label_feedback.py
+python3 scripts/generate_reports.py --support-lead "<Nama Support Lead> <email@perusahaan.com>"
+```
+
+> **Catatan:** skrip ini hanya membuat **draf**. Repositori ini tidak terhubung ke layanan
+> email mana pun, jadi `escalation_email_draft.txt` perlu disalin dan dikirim secara manual
+> oleh support lead (atau melalui integrasi email terpisah).
+
+## Testing
+
+```bash
+python3 -m unittest discover tests
+```
+
+Unit test di `tests/test_label_feedback.py` mencakup klasifikasi sentiment/topic/severity
+serta pemisahan baris `high`/`critical` dari baris rutin, menggunakan data contoh di
+`tests/fixtures/sample_feedback.csv`.
+
 ## Status
 
 Proyek masih dalam tahap awal pengembangan.
